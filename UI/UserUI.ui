@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserWindow</class>
+ <widget class="QMainWindow" name="UserWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>911</width>
+    <height>525</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>731</width>
+    <height>517</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>731</width>
+     <height>517</height>
+    </size>
+   </property>
+   <widget class="QFrame" name="frame_5">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>790</width>
+      <height>430</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>690</width>
+      <height>380</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_5{
+background-color: rgb(255, 245, 225);
+
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QFrame" name="frame_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>1</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 247, 226);
+border-top-radius:20px;
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame_3">
+          <property name="styleSheet">
+           <string notr="true">#frame_3{
+border-top-radius:20px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item alignment="Qt::AlignLeft">
+            <widget class="QLabel" name="label">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 12pt &quot;songti&quot;;</string>
+             </property>
+             <property name="text">
+              <string>欢迎使用环球航空公司订票系统</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignRight">
+         <widget class="QFrame" name="frame_4">
+          <property name="styleSheet">
+           <string notr="true">
+QPushButton{
+border:none;
+border-top-right-radius:20px;
+}
+QPushButton:hover{
+padding-bottom:3px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="../res.qrc">
+               <normaloff>:/imag/imag/minimize.png</normaloff>:/imag/imag/minimize.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>16</width>
+               <height>16</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignRight">
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="../res.qrc">
+               <normaloff>:/imag/imag/exit.webp</normaloff>:/imag/imag/exit.webp</iconset>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>10</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame_7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>1</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_7{
+background-color: rgb(255, 236, 224);
+
+}
+QPushButton{
+border:none;
+color:rgb(0, 0, 0);
+font: 11pt &quot;宋体&quot;;
+}
+
+QPushButton:hover { 
+background-color:rgb(233, 182, 163); 
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="text">
+              <string>首页</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_mytic">
+             <property name="text">
+              <string>本人机票</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_changepass">
+             <property name="text">
+              <string>修改密码</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_ULogout">
+             <property name="text">
+              <string>退出登录</string>
+             </property>
+             <property name="icon">
+              <iconset resource="../res.qrc">
+               <normaloff>:/imag/imag/exit.png</normaloff>:/imag/imag/exit.png</iconset>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>5</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QStackedWidget" name="stackedWidget">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>660</width>
+             <height>390</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>660</width>
+             <height>390</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">#page_change{
+image: url(:/imag/imag/bgground2.png);
+}
+QLineEdit{
+	font: 11pt &quot;宋体&quot;;
+}</string>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="page_home">
+            <property name="styleSheet">
+             <string notr="true">#page_home{
+image: url(:/imag/imag/bgground2.png);
+}</string>
+            </property>
+            <widget class="QLabel" name="label_5">
+             <property name="geometry">
+              <rect>
+               <x>287</x>
+               <y>65</y>
+               <width>81</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>9</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 9pt &quot;宋体&quot;;</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+             <property name="text">
+              <string>航班搜索</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_3">
+             <property name="geometry">
+              <rect>
+               <x>231</x>
+               <y>94</y>
+               <width>41</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>7</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>到达</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditChu">
+             <property name="geometry">
+              <rect>
+               <x>153</x>
+               <y>106</y>
+               <width>62</width>
+               <height>19</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border: none</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_search">
+             <property name="geometry">
+              <rect>
+               <x>496</x>
+               <y>110</y>
+               <width>47</width>
+               <height>19</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>9</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton { background-color: rgb(233, 28, 35); border-radius: 3px; color: rgb(255, 255, 255); font: 9pt &quot;宋体&quot;;} 
+
+QPushButton:hover { background-color:rgb(255, 32, 36); }
+
+</string>
+             </property>
+             <property name="text">
+              <string>搜索</string>
+             </property>
+             <property name="icon">
+              <iconset theme="audio-card">
+               <normaloff>../../航班订票管理系统/航班订票管理系统/System_manage</normaloff>../../航班订票管理系统/航班订票管理系统/System_manage</iconset>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
+             </property>
+             <property name="checked">
+              <bool>false</bool>
+             </property>
+             <property name="autoDefault">
+              <bool>false</bool>
+             </property>
+             <property name="default">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditDao">
+             <property name="geometry">
+              <rect>
+               <x>264</x>
+               <y>106</y>
+               <width>66</width>
+               <height>19</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border: none</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_4">
+             <property name="geometry">
+              <rect>
+               <x>343</x>
+               <y>97</y>
+               <width>51</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>7</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>日期</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_2">
+             <property name="geometry">
+              <rect>
+               <x>116</x>
+               <y>94</y>
+               <width>51</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Microsoft Tai Le</family>
+               <pointsize>7</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>出发</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QTableWidget" name="tableWidget">
+             <property name="geometry">
+              <rect>
+               <x>6</x>
+               <y>163</y>
+               <width>645</width>
+               <height>194</height>
+              </rect>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>902</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+background-color: rgb(242, 242, 242);</string>
+             </property>
+             <property name="autoScrollMargin">
+              <number>10</number>
+             </property>
+             <property name="rowCount">
+              <number>0</number>
+             </property>
+             <property name="columnCount">
+              <number>9</number>
+             </property>
+             <attribute name="horizontalHeaderMinimumSectionSize">
+              <number>15</number>
+             </attribute>
+             <attribute name="horizontalHeaderDefaultSectionSize">
+              <number>72</number>
+             </attribute>
+             <attribute name="horizontalHeaderHighlightSections">
+              <bool>true</bool>
+             </attribute>
+             <attribute name="verticalHeaderMinimumSectionSize">
+              <number>14</number>
+             </attribute>
+             <attribute name="verticalHeaderDefaultSectionSize">
+              <number>18</number>
+             </attribute>
+             <column>
+              <property name="text">
+               <string>航班号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>起点站</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>终点站</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>班期</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>起飞时间</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>到达时间</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>可订票数</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>票价</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string/>
+              </property>
+             </column>
+            </widget>
+            <widget class="QPushButton" name="pushButton_homeshai">
+             <property name="geometry">
+              <rect>
+               <x>232</x>
+               <y>361</y>
+               <width>31</width>
+               <height>23</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton { background-color: rgb(233, 28, 35); border-radius: 3px; color: rgb(255, 255, 255); font: 9pt &quot;宋体&quot;;} 
+
+QPushButton:hover { background-color:rgb(255, 32, 36); }</string>
+             </property>
+             <property name="text">
+              <string>筛选</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_homeqian">
+             <property name="geometry">
+              <rect>
+               <x>330</x>
+               <y>361</y>
+               <width>80</width>
+               <height>23</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>价格:低—&gt;高</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_homedao">
+             <property name="geometry">
+              <rect>
+               <x>510</x>
+               <y>361</y>
+               <width>80</width>
+               <height>23</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushbottom:{
+font: 9pt &quot;幼圆&quot;;boder-radius:3px;
+}
+QPushbottom:hover{
+background-color:rgb(233, 182, 163);
+}</string>
+             </property>
+             <property name="text">
+              <string>时间:短—&gt;长</string>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="comboBox">
+             <property name="geometry">
+              <rect>
+               <x>29</x>
+               <y>361</y>
+               <width>101</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QComboBox{
+border-radius:3px;
+}</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>航班号</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>最早起飞时间</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>最晚到达时间</string>
+              </property>
+             </item>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>361</y>
+               <width>101</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+background-color:none;
+border-bottom:Solid Black;
+}</string>
+             </property>
+            </widget>
+            <widget class="QStackedWidget" name="stackedWidget_3">
+             <property name="geometry">
+              <rect>
+               <x>170</x>
+               <y>144</y>
+               <width>312</width>
+               <height>19</height>
+              </rect>
+             </property>
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <widget class="QWidget" name="page_5"/>
+             <widget class="QWidget" name="page_8">
+              <widget class="QLabel" name="label_30">
+               <property name="geometry">
+                <rect>
+                 <x>85</x>
+                 <y>5</y>
+                 <width>156</width>
+                 <height>12</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 0, 255);</string>
+               </property>
+               <property name="text">
+                <string>没有寻找到符合条件的航班！</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_6">
+              <widget class="QLabel" name="label_28">
+               <property name="geometry">
+                <rect>
+                 <x>107</x>
+                 <y>5</y>
+                 <width>96</width>
+                 <height>14</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 12, 255);</string>
+               </property>
+               <property name="text">
+                <string>请填写完整信息！</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_7">
+              <widget class="QLabel" name="label_29">
+               <property name="geometry">
+                <rect>
+                 <x>135</x>
+                 <y>5</y>
+                 <width>54</width>
+                 <height>12</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 170, 0);</string>
+               </property>
+               <property name="text">
+                <string>搜索成功！</string>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+            <widget class="QComboBox" name="comboBox_2">
+             <property name="geometry">
+              <rect>
+               <x>382</x>
+               <y>106</y>
+               <width>75</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+             </property>
+             <item>
+              <property name="text">
+               <string/>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>6</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>7</string>
+              </property>
+             </item>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="page_changepassword">
+            <widget class="QFrame" name="frame_8">
+             <property name="geometry">
+              <rect>
+               <x>160</x>
+               <y>30</y>
+               <width>361</width>
+               <height>321</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	border:none;
+	border-bottom:1px solid black;
+}
+QPushButton{
+	border-radius:7px;
+	background-color: rgb(255, 230, 198);
+}
+QPushButton:pressed{
+	padding-top:3px;
+	padding-left:3px;
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_U_pass_1">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="placeholderText">
+                 <string>密码：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_U_pass_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="placeholderText">
+                 <string>确认密码：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_5">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>35</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>确定</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QStackedWidget" name="stackedWidget_2">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="currentIndex">
+                 <number>0</number>
+                </property>
+                <widget class="QWidget" name="page"/>
+                <widget class="QWidget" name="page_2">
+                 <widget class="QLabel" name="label_25">
+                  <property name="geometry">
+                   <rect>
+                    <x>141</x>
+                    <y>10</y>
+                    <width>84</width>
+                    <height>22</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 0, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>输入不能为空！</string>
+                  </property>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_3">
+                 <widget class="QLabel" name="label_26">
+                  <property name="geometry">
+                   <rect>
+                    <x>125</x>
+                    <y>10</y>
+                    <width>120</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 0, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>两次密码输入不一致！</string>
+                  </property>
+                 </widget>
+                </widget>
+                <widget class="QWidget" name="page_4">
+                 <widget class="QLabel" name="label_27">
+                  <property name="geometry">
+                   <rect>
+                    <x>155</x>
+                    <y>10</y>
+                    <width>60</width>
+                    <height>17</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(0, 170, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>修改成功！</string>
+                  </property>
+                 </widget>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="page_myticket">
+            <property name="styleSheet">
+             <string notr="true">#page_myticket{
+	
+	background-image: url(:/imag/imag/icon.14.jpg);
+
+}</string>
+            </property>
+            <widget class="QLabel" name="labelSet2">
+             <property name="geometry">
+              <rect>
+               <x>120</x>
+               <y>64</y>
+               <width>261</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>幼圆</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="labelAccount">
+             <property name="geometry">
+              <rect>
+               <x>60</x>
+               <y>64</y>
+               <width>71</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>幼圆</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>账号：</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QTableWidget" name="tableWidget_3">
+             <property name="geometry">
+              <rect>
+               <x>40</x>
+               <y>130</y>
+               <width>581</width>
+               <height>181</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(250, 248, 245);
+border-color:black;
+border-radius: 6px;</string>
+             </property>
+             <property name="autoScrollMargin">
+              <number>10</number>
+             </property>
+             <attribute name="horizontalHeaderMinimumSectionSize">
+              <number>18</number>
+             </attribute>
+             <attribute name="horizontalHeaderDefaultSectionSize">
+              <number>73</number>
+             </attribute>
+             <attribute name="verticalHeaderMinimumSectionSize">
+              <number>16</number>
+             </attribute>
+             <attribute name="verticalHeaderDefaultSectionSize">
+              <number>18</number>
+             </attribute>
+             <column>
+              <property name="text">
+               <string>航班号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>起点站</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>终点站</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>班期</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>起飞时间</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>到达时间</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>票价</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string/>
+              </property>
+             </column>
+            </widget>
+            <widget class="QFrame" name="frame_9">
+             <property name="geometry">
+              <rect>
+               <x>460</x>
+               <y>10</y>
+               <width>181</width>
+               <height>101</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">image: url(:/imag/imag/ticket.png);</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="geometry">
+              <rect>
+               <x>550</x>
+               <y>330</y>
+               <width>75</width>
+               <height>23</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton { background-color: rgb(233, 28, 35); border-radius: 3px; color: rgb(255, 255, 255); font: 9pt &quot;宋体&quot;;} 
+
+QPushButton:hover { background-color:rgb(255, 32, 36); }</string>
+             </property>
+             <property name="text">
+              <string>查看</string>
+             </property>
+            </widget>
+            <widget class="QStackedWidget" name="stackedWidget_6">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>100</y>
+               <width>359</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <widget class="QWidget" name="page_17"/>
+             <widget class="QWidget" name="page_18">
+              <widget class="QLabel" name="label_35">
+               <property name="geometry">
+                <rect>
+                 <x>141</x>
+                 <y>3</y>
+                 <width>84</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 0, 0);</string>
+               </property>
+               <property name="text">
+                <string>暂无订票信息！</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_19"/>
+             <widget class="QWidget" name="page_20">
+              <widget class="QLabel" name="label_37">
+               <property name="geometry">
+                <rect>
+                 <x>151</x>
+                 <y>3</y>
+                 <width>60</width>
+                 <height>17</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 170, 0);</string>
+               </property>
+               <property name="text">
+                <string>查询成功！</string>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="page_buy">
+            <property name="styleSheet">
+             <string notr="true">#page_buy{
+	background-image: url(:/imag/imag/icon.14.jpg);
+}
+QLable{
+	font: 9pt &quot;宋体&quot;;
+}
+QLineEdit{
+	font: 12pt &quot;宋体&quot;;
+}</string>
+            </property>
+            <widget class="QLabel" name="label_10">
+             <property name="geometry">
+              <rect>
+               <x>320</x>
+               <y>168</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 13pt &quot;宋体&quot;;</string>
+             </property>
+             <property name="text">
+              <string>到达地</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditArr">
+             <property name="geometry">
+              <rect>
+               <x>440</x>
+               <y>173</y>
+               <width>138</width>
+               <height>23</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>12</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:none</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_11">
+             <property name="geometry">
+              <rect>
+               <x>320</x>
+               <y>79</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 13pt &quot;宋体&quot;;</string>
+             </property>
+             <property name="text">
+              <string>班期</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditArrTime">
+             <property name="geometry">
+              <rect>
+               <x>440</x>
+               <y>124</y>
+               <width>139</width>
+               <height>23</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>12</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:none</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_12">
+             <property name="geometry">
+              <rect>
+               <x>41</x>
+               <y>209</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 13pt &quot;宋体&quot;;</string>
+             </property>
+             <property name="text">
+              <string>票价</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditCode">
+             <property name="geometry">
+              <rect>
+               <x>160</x>
+               <y>79</y>
+               <width>139</width>
+               <height>23</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>12</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:none;
+</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_13">
+             <property name="geometry">
+              <rect>
+               <x>41</x>
+               <y>168</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 13pt &quot;宋体&quot;;</string>
+             </property>
+             <property name="text">
+              <string>出发地</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_15">
+             <property name="geometry">
+              <rect>
+               <x>320</x>
+               <y>121</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 13pt &quot;宋体&quot;;</string>
+             </property>
+             <property name="text">
+              <string>到达时间</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditLauTime">
+             <property name="geometry">
+              <rect>
+               <x>160</x>
+               <y>126</y>
+               <width>139</width>
+               <height>23</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>12</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:none</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_7">
+             <property name="geometry">
+              <rect>
+               <x>488</x>
+               <y>310</y>
+               <width>70</width>
+               <height>28</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>12</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton { 
+background-color: rgb(233, 28, 35); 
+border-radius: 8px;
+ color: rgb(255, 255, 255);
+	font: 12pt &quot;宋体&quot;;
+ } 
+QPushButton:hover { background-color:rgb(255, 32, 36); }
+</string>
+             </property>
+             <property name="text">
+              <string>订票</string>
+             </property>
+             <property name="icon">
+              <iconset theme="audio-card">
+               <normaloff>../../航班订票管理系统/航班订票管理系统/System_manage</normaloff>../../航班订票管理系统/航班订票管理系统/System_manage</iconset>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
+             </property>
+             <property name="checked">
+              <bool>false</bool>
+             </property>
+             <property name="autoDefault">
+              <bool>false</bool>
+             </property>
+             <property name="default">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_17">
+             <property name="geometry">
+              <rect>
+               <x>41</x>
+               <y>80</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 13pt &quot;宋体&quot;;</string>
+             </property>
+             <property name="text">
+              <string>航班号</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditLau">
+             <property name="geometry">
+              <rect>
+               <x>160</x>
+               <y>173</y>
+               <width>138</width>
+               <height>23</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>12</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:none</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_14">
+             <property name="geometry">
+              <rect>
+               <x>41</x>
+               <y>121</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 13pt &quot;宋体&quot;;</string>
+             </property>
+             <property name="text">
+              <string>出发时间</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditPrice1">
+             <property name="geometry">
+              <rect>
+               <x>133</x>
+               <y>213</y>
+               <width>168</width>
+               <height>26</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>12</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:none</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_16">
+             <property name="geometry">
+              <rect>
+               <x>133</x>
+               <y>74</y>
+               <width>168</width>
+               <height>36</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+image: url(:/imag/imag/icon.9.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_19">
+             <property name="geometry">
+              <rect>
+               <x>412</x>
+               <y>74</y>
+               <width>168</width>
+               <height>36</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+image: url(:/imag/imag/icon.10.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_21">
+             <property name="geometry">
+              <rect>
+               <x>133</x>
+               <y>166</y>
+               <width>168</width>
+               <height>36</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+image: url(:/imag/imag/icon.9.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_22">
+             <property name="geometry">
+              <rect>
+               <x>412</x>
+               <y>166</y>
+               <width>168</width>
+               <height>36</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+image: url(:/imag/imag/icon.9.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_23">
+             <property name="geometry">
+              <rect>
+               <x>412</x>
+               <y>119</y>
+               <width>168</width>
+               <height>36</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+image: url(:/imag/imag/icon.10.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_24">
+             <property name="geometry">
+              <rect>
+               <x>133</x>
+               <y>120</y>
+               <width>168</width>
+               <height>36</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+image: url(:/imag/imag/icon.10.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButtonBack_tohome">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>16</y>
+               <width>80</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+               <underline>true</underline>
+               <strikeout>false</strikeout>
+               <kerning>true</kerning>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>ArrowCursor</cursorShape>
+             </property>
+             <property name="mouseTracking">
+              <bool>true</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton { background-color: none; border-radius: 3px; color: black; } 
+QPushButton:hover { background-color:rgb(233, 182, 163); }
+</string>
+             </property>
+             <property name="text">
+              <string>&lt;-返回</string>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="comboBox_date">
+             <property name="geometry">
+              <rect>
+               <x>440</x>
+               <y>78</y>
+               <width>102</width>
+               <height>23</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 75 12pt &quot;宋体&quot;;</string>
+             </property>
+            </widget>
+            <widget class="QStackedWidget" name="stackedWidget_5">
+             <property name="geometry">
+              <rect>
+               <x>160</x>
+               <y>250</y>
+               <width>359</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="currentIndex">
+              <number>2</number>
+             </property>
+             <widget class="QWidget" name="page_13"/>
+             <widget class="QWidget" name="page_14">
+              <widget class="QLabel" name="label_34">
+               <property name="geometry">
+                <rect>
+                 <x>141</x>
+                 <y>6</y>
+                 <width>84</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 0, 0);</string>
+               </property>
+               <property name="text">
+                <string>输入不能为空！</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_15"/>
+             <widget class="QWidget" name="page_16">
+              <widget class="QLabel" name="label_36">
+               <property name="geometry">
+                <rect>
+                 <x>155</x>
+                 <y>6</y>
+                 <width>60</width>
+                 <height>17</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 170, 0);</string>
+               </property>
+               <property name="text">
+                <string>订票成功！</string>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+            <zorder>label_24</zorder>
+            <zorder>label_23</zorder>
+            <zorder>label_22</zorder>
+            <zorder>label_21</zorder>
+            <zorder>label_19</zorder>
+            <zorder>label_10</zorder>
+            <zorder>label_11</zorder>
+            <zorder>label_12</zorder>
+            <zorder>label_13</zorder>
+            <zorder>label_15</zorder>
+            <zorder>pushButton_7</zorder>
+            <zorder>label_17</zorder>
+            <zorder>label_14</zorder>
+            <zorder>lineEditPrice1</zorder>
+            <zorder>label_16</zorder>
+            <zorder>lineEditCode</zorder>
+            <zorder>lineEditLauTime</zorder>
+            <zorder>lineEditLau</zorder>
+            <zorder>lineEditArrTime</zorder>
+            <zorder>lineEditArr</zorder>
+            <zorder>pushButtonBack_tohome</zorder>
+            <zorder>comboBox_date</zorder>
+            <zorder>stackedWidget_5</zorder>
+           </widget>
+           <widget class="QWidget" name="page_change">
+            <widget class="QLabel" name="label_6">
+             <property name="geometry">
+              <rect>
+               <x>116</x>
+               <y>93</y>
+               <width>51</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Microsoft Tai Le</family>
+               <pointsize>7</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>出发</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>UserWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>659</x>
+     <y>55</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>712</x>
+     <y>18</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>UserWindow</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>634</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>681</x>
+     <y>11</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
