@@ -1,0 +1,31 @@
+<RCC>
+  <qresource prefix="imag">
+    <file>imag/ticket.png</file>
+    <file>imag/exit.png</file>
+    <file>imag/login_icon2.png</file>
+    <file>imag/minimize.png</file>
+    <file>imag/login_icon.png</file>
+    <file>imag/login1.png</file>
+    <file>imag/login.png</file>
+    <file>imag/exit.webp</file>
+    <file>imag/background_delete.jpg</file>
+    <file>imag/bgground2.png</file>
+    <file>imag/icon.1.png</file>
+    <file>imag/icon.2.png</file>
+    <file>imag/icon.3.png</file>
+    <file>imag/icon.4.png</file>
+    <file>imag/icon.5.svg</file>
+    <file>imag/icon.6.png</file>
+    <file>imag/icon.7.png</file>
+    <file>imag/icon.8.png</file>
+    <file>imag/icon.9.png</file>
+    <file>imag/icon.10.png</file>
+    <file>imag/icon.11.webp</file>
+    <file>imag/icon.12.jpg</file>
+    <file>imag/icon.13.jpg</file>
+    <file>imag/icon.14.jpg</file>
+    <file>imag/icon.15.jpg</file>
+    <file>imag/icon.16.jpg</file>
+    <file>imag/W020231016579105375107.png</file>
+  </qresource>
+</RCC>
