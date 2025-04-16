@@ -1,7 +1,7 @@
-## FlightManageSystem
+# FlightManageSystem
 航班订票管理系统  
 其中的res.qrc需要使用PyCharm中的外部工具PyRIC，将其转换成py文件。  
-## 文件结构
+# 文件结构
 ```bash
 E:
 │  main.py  // 主函数
@@ -35,30 +35,31 @@ E:
 |
 |-image // 存放GUI界面涉及到的所有图标
 ```
-## 功能框架图
-# 普通用户功能框架
+# 功能框架图
+## 普通用户功能框架
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/Figure1.jpg)
-# 航班管理员用户功能框架
+## 航班管理员用户功能框架
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/Figure2.jpg)
-# 超级管理员用户功能框架
+## 超级管理员用户功能框架
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/Figure3.jpg)
 
-## 运行结果图
-
-# 普通用户端
-登录界面
+# 运行结果图
+## 普通用户端
+### 登录界面
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/Figure4.png)
-用户查询界面
+### 用户查询界面
 可以查找中转航班信息
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/Figure5.png)
-订票界面
+### 订票界面
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F6.png)
-查询个人机票
+### 查询个人机票
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F7.png)
-修改密码
+### 修改密码
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F8.png)
+
 ## 管理员用户界面
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F9.png)
+
 ## 超级管理员用户界面
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F10.png)
 
