@@ -45,18 +45,18 @@ E:
 ## 运行结果图
 # 普通用户端
 登录界面
-![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/Figure4.jpg)
+![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/Figure4.png)
 用户查询界面
 可以查找中转航班信息
-![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/Figure5.jpg)
+![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/Figure5.png)
 订票界面
-![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F6.jpg)
+![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F6.png)
 查询个人机票
-![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F7.jpg)
+![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F7.png)
 修改密码
-![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F8.jpg)
+![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F8.png)
 ## 管理员用户界面
-![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F9.jpg)
+![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F9.png)
 ## 超级管理员用户界面
-![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F10.jpg)
+![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/F10.png)
 
