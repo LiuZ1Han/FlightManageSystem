@@ -6,14 +6,14 @@
 E:
 │  main.py  // 主函数
 |  config.py
-|  sql.py
+|  sql.py  // 所有查询、排序等操作函数实现
 │  
 ├─data
-│  │  fights.txt
-│  │  managers.txt
-|  |  super.txt
-|  |  tickets.txt
-|  |  users.txt
+│  │  fights.txt // 航班信息
+│  │  managers.txt // 管理员信息
+|  |  super.txt // 超级管理员信息
+|  |  tickets.txt // 机票信息
+|  |  users.txt // 用户信息
 │
 │                  
 ├─ClassUI
@@ -42,7 +42,9 @@ E:
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/Figure2.jpg)
 # 超级管理员用户功能框架
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/Figure3.jpg)
+
 ## 运行结果图
+
 # 普通用户端
 登录界面
 ![image](https://github.com/LiuZ1Han/FlightManageSystem/blob/main/Png/Figure4.png)
